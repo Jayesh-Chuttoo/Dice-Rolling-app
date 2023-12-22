@@ -19,9 +19,11 @@ import die3 from "./assets/diceImages/die3.png";
 import die4 from "./assets/diceImages/die4.png";
 import die5 from "./assets/diceImages/die5.png";
 import die6 from "./assets/diceImages/die6.png";
+import backgroundImg from "./assets/backgroundImageDark.jpg";
+
+// Component Imports
 import SplashScreenComponent from "./components/SplashScreen";
 import Button from "./components/Button";
-import backgroundImg from "./assets/backgroundImageDark.jpg";
 
 // Component
 export default function App() {
@@ -177,7 +179,7 @@ const styles = StyleSheet.create({
     flex: 1,
     width: "100%",
     height: "100%",
-    backgroundColor: "#000", // Set your desired background color
+    backgroundColor: "#000",
     resizeMode: "cover",
   },
   container: {
